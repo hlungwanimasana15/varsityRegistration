@@ -1,0 +1,56 @@
+1. Selling point of the app (what does the app do?):
+*the user gets their results quiecker and makes registration easy
+
+2. How does it do this?:
+*it basically shows the course that a user qualifies for quiecker 
+and helps the application to be simpler  h
+by checking the users aps and subjects against+ the minimum requirements for the courses  and provide the results instantly 
+the minimum requirements for the courses 
+
+3. Benefits of the app?:
+*making it simple to register based on the information the users has
+ provided.
+ *saves time
+ *only provides what the user qualifies for so they only apply  for that
+
+
+4. Step by step process of how it achieves this?: 
+*firstly the user provides their aps 
+*secondly the user privides the subjects they did in high school
+*thirdly the user will press the check button
+*then there will be a section that will provide the coursesthe user qualifies for (based on the  uni aps/subjects requirements provided)
+*the user will then click on the couse they qualify for 
+*the register 
+
+
+Algorithm for varsity application
+
+1.start the registration process
+2,prompt the user to select theyr aps range
+3,prompt the user to enter their subjects
+4.validate the entered Aps score and the entered subjects with the aps/subjects requirements
+5,display the courses they actually for in the dropdown
+6.prompt the user to select their course of choice in the dropdown manu.
+7,display the selected course
+8,prompt the user to eter their information like name and surname and id 
+9,prompt the user to submit
+9,store the registration details in an array.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

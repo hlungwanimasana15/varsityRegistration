@@ -1,0 +1,101 @@
+varsityRegistartionApp
+//* The app will provide a dropdown to select age rage,
+//* a list of checkboxes to  with high school subjects,
+//*The APS score together with the subjects
+//* will be used to populate another dropdown with courses that match the users’ inputs
+// *registration form 
+// *submit button
+
+Requirements
+//*create an age input dropdown ensure it is onchange
+//*create chackbox  ensure that that its onchange
+//*a dropdown manu yo populate the the courses the learner qualify for 
+//*a button to check the aps and and the  checked subjects
+// *a form for registering afte selecting a course
+//*submit button
+
+Algorithm
+
+//*declare the dropdown manu  and also unse it as a function ,also add 
+//the event'change', also store the selected value
+//* set conditions for the checkbox so if it is selected ,also save the selected value.
+//*button should be used to check the actions from the aps rage and check boxes
+//*introduce a function called checkCourses that will be triggered when a button is pressed
+// this means the function will consist of for loop thats going to loop from faculties array
+// to course and the requirements ,requirements consists of Aps and subjects.
+//*when the button is abled it will trigger ChequeCourse
+//*chequeCourse  must consist of  a filter code that filters the courses based the range nd the subject checked
+//*store the matching courses in A NEW ARRAY CALLED STUDENTCOURSES
+//*THE COURSES THAT MATCH should be stored in a second array
+//* information on student array should display the course ,duration and required subjcts
+//*
+
+
+
+
+Psoedocode 
+
+// checkbox
+
+//  for check of checkboxes 
+//     if checkbox is checked === false
+//     push checked checkbox values
+// else if checkbox is checked === true
+//     push chackbox checkbox values 
+//      splice checked checkbox 
+
+// // check course function
+
+// for faculties 
+//         let faculty=faculties[i] // for will set the conditon 
+//     for faculty.courses[j]
+//         if selected <= faculty.courses[j].requirements.aps // a condition that itarates through the faculties Array
+
+//     // populate results in the manu dropdown using appendCHILD 
+     
+     
+// // chequeCourse function
+ 
+// studentCourses=[]
+
+// let QualifiedCourse = faculty.courses[j].requirements.aps.filter(subjects)
+// studentCourses.psh(subjects and aps)         
+// ****************************************************************************
+ 
+// Algorithm
+
+// if selectedAps is greater equal to aps in the faculties Array
+// Initialize item= faculty.courses[j].courseName 
+// Initialize QualifiedCourse=create an element called  option
+// get values by text with QualifiedCourse
+
+// pop(dropDown) appends qualified courses
+
+// else
+
+// Initialize item= faculty.courses[j].courseName 
+// Initialize notQualifiedCourse=create an element called  option
+// get values by text with notQualifiedCourse
+// pop(dropDown) appends notqualifiedcourses
+
+//code
+
+// if selectedAps >=  faculty.courses[j].requirements.aps
+
+// const qualifiedOptions =document.createElement("option");
+//                 qualifiedOptions.text=item;
+//                 qualifiedOptions.value=item;
+//                 pop.appendChild(qualifiedOptions);
+//                 console.log(qualifiedOptions)
+// else
+//             let item = faculty.courses[j].courseName
+
+//             const notQualifiedOptions=document.createElement('option');
+//             notQualifiedOptions.text=item;
+//             notQualifiedOptions.value=item;
+//             pop.appendChild( notQualifiedOptions);
+//             console.log(notQualifiedOptions)
+
+
+
+

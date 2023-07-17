@@ -1,0 +1,41 @@
+// 1.start the registration process
+// 2,prompt the user to select theyr aps range
+// 3,prompt the user to enter their subjects
+//4,prompt the user ro press the button for them to check if they meet the requirements
+
+// 5.validate the entered Aps score and the entered subjects with 
+//the aps/subjects requirements
+
+for for
+if(selectedAps is  greater than or equal to the aps requirements)
+    then dropdowm menu should consist of the course the user qualifies
+    req = {
+        aps: 30,
+        subs: ["Science", "Maths"]
+    }
+
+   for(){ 
+         requirements.subjects[j]
+    }
+else if (selectedhheck is greater or equal to the subjects requirements)
+    then the dropdown should onl contain what the user qualify for 
+end
+
+
+
+// 6,display the courses they actually qualify for in the dropdown
+ initialize the looped value
+ appendchild the qualified value to the dropdown so it populates based on the conditions
+
+// 7.prompt the user to select their course of choice in the dropdown manu.
+// 8,display the selected course
+alert the selected course
+
+9,prompt the user to eter their information like name and surname and id 
+10,prompt the user to submit
+// 11,store the registration details in an array.
+
+
+
+// simple subs requirements array
+subs = ["Science", "Maths"]
